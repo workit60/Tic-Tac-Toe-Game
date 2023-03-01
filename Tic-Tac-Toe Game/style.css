@@ -1,0 +1,167 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    background-color: #e8b0d3;
+    font-family: "Ink Free", serif;
+  }
+  h1, h2 {
+    text-align: center;
+    font-family: "Ink Free", serif;
+    font-size: 100px;
+  }
+  .message {
+    color: #fff;
+    font-size: 80px;
+    padding-bottom: 1em;
+  }
+
+  form label {
+    font-size: 4em;
+    font-weight: bold;
+    vertical-align: middle;
+	  text-align: center;
+  }
+  form input[type=button] {
+    margin: auto 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #c9abbe;
+    font-size: 50px;
+    vertical-align: middle;
+	  text-align: center;
+    width: 110px;
+    height: 90px;
+    display: inline-block; 
+    
+  }
+  .msg {
+    margin: auto 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #c9abbe;
+    font-family: "P1=SVdEQ1RGe1RpdG", serif;
+    text-align: center;
+    font-size: 100px;
+  }
+  form fieldset {
+    display: block;
+    opacity: 1;
+    transition: all ease 1s;
+  }
+  form.game-on fieldset {
+    opacity: 0;
+    display: none;
+  }
+  form.game-on button {
+    opacity: 1;
+    display: block;
+    margin: 0 auto;
+  }
+  #grid-section {
+    margin: 3em 0;
+  }
+  #grid {
+    width: 300px;
+    margin: 0 auto;
+  }
+  li {
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+    font-size: 4em;
+    text-align: center;
+    padding: 0.5em;
+  }
+  #c1,
+  #c2,
+  #c3 {
+    border-top: none;
+  }
+  #c3,
+  #c6,
+  #c9 {
+    border-right: none;
+  }
+  #c7,
+  #c8,
+  #c9 {
+    border-bottom: none;
+  }
+  #c1,
+  #c4,
+  #c7 {
+    border-left: none;
+  }
+  .winner {
+    color: #9AE1E5;
+  }
+  .btn-primary,
+  .btn-primary:focus {
+    background-color: #df8bc3;
+    opacity: 0;
+    outline: 0;
+    transition: all ease 0.3s;
+    width : 130px;
+    height : 80px;
+    border-radius: 12px;
+    font-size: 25px;
+  }
+  .btn-primary:hover {
+    background-color: #4C2F39;
+  }
+  
+  .pop-up{
+  position:absolute;
+  width : 500px;
+  height : 230px;
+  border-radius: 20px;
+  background-color:#fff;
+  margin: 0 auto;
+  top  : 250px;
+  left : 50%;
+  margin-left: -200px;
+  box-shadow: 0px 5px 5px -2px rgba(20,20,20, 0.4);
+  display:none;
+}
+
+div.pop-up h3{
+  text-align:center;
+  padding-top: 5px;
+  color: #444;
+  font-size: 30px;
+}
+
+.el-s{
+  display: inline-block;
+  height:120px;
+  width:120px;
+  font-size : 4.5em;
+  background-color : #c9abbe;
+  border-radius:20px;
+  margin: auto 5px;
+  color: #f8f8f8;
+  padding-bottom: 8px;
+  vertical-align: middle;
+}
+
+.row{
+  text-align:center;
+  margin : 10px auto;
+}
+
+.inline{
+  display:inline-block;
+  margin:10px 5px;
+  text-align:center;  
+}
