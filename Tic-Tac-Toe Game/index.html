@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Comfortaa:700,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="row text-center" id="intro-section">
+          <h1>Player vs Computer Tic-Tac-Toe</h1>
+          <h2 class="message">Choose your player:</h2>
+
+          <form action="#">
+            <fieldset>
+            <div class="select pop-up" style="display: block;">
+              <h3>PLEASE SELECT:</h3>
+              <div class="row">
+                <div class="el-s free"><input type="button" id='player-choice-1' name="player-choice" value="X" ><i class="fa fa-times txt"></i></div>
+                <h3 class='inline'>OR</h3>
+                <div class="el-s free"><input type="button" id='player-choice-1' name="player-choice" value="O" ><i class="fa fa-circle-o txt"></i></div>
+
+              </div>
+            </div>
+            </fieldset>
+            <button id="reset" class="btn btn-primary">Play Again</button>
+          </form>
+          <!--<form action="#">
+            <fieldset>
+              <input type="radio" name="player-choice" id="player-choice-1" value="X" />
+              <label for="player-choice-1">X</label>
+              <input type="radio" name="player-choice" id="player-choice-2" value="O" />
+              <label for="player-choice-2">O</label>
+            </fieldset>
+            <button id="reset" class="btn btn-primary">Reset</button>
+          </form> -->
+
+        </div>
+        <div class="row" id="grid-section">
+            <ul id="grid">
+            </ul> 
+        </div>
+        <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+        <!--<<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6(P2:FuaWNicmVha3R3b30)a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>-->
+        <script src="newone.html"></script>
+        <script src="script.js"></script>
+    </div>
+	
+	
+	
+</body>
+</html>
